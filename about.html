@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" href="../imgs/branding/logo.png" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Flash Recruitment - Home</title>
+  <link rel="icon" type="image/png" href="imgs/branding/logo.png" />
+  <link rel="stylesheet" href="style/style.css" />
+  <title>Flash Recruitment - About</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet" />
@@ -23,8 +23,8 @@
       <div class="standard_nav">
         <nav class="home__nav__bar">
           <ul class="nav__list">
-            <li><a href="index.html" target="_self"><u>Home</u></a></li>
-            <li><a href="about.html" target="_self">About</a></li>
+            <li><a href="index.html" target="_self">Home</a></li>
+            <li><a href="about.html" target="_self"><u>About</u></a></li>
             <li><a href="clients.html" target="_self">Clients</a></li>
             <li><a href="contact.html" target="_self">FAQ</a></li>
             <li><a href="contact.html" target="_self">Contact</a></li>
@@ -35,18 +35,35 @@
     <!-- Main -->
 
     <main class="main-box">
-
-      <div class="arrows down__arrow">
-        <a href="about.html"><img src="../imgs/svg/next__down.png"></a>
+      <div class="arrows up__arrow">
+        <a href="index.html"><img src="imgs/svg/next__up.png"></a>
+      </div>
+      <div class="arrows down__arrow"><a href="clients.html"> <img src="imgs/svg/next__down.png">
+        </a>
       </div>
 
       <!-- LEFT BOX -->
-      <div class="main-box__item left-box__home">
-        <div class="content-box text__container" style="text-transform: uppercase; font-size: 1.9rem;">
-          <p>
-            <b>Find a job in the UK with flash recruitment. Browse a range of
-              permanent or temporary roles including jobs in IT, Finance,
-              Construction, HR & Marketing.</b>
+      <div class="main-box__item left-box__about">
+        <div class="content-box text__container">
+          <div style="width: 100%; display: flex; flex-direction: row-reverse;">
+            <h2 class="headertext" class="text-align: right">About</h2>
+          </div>
+          <p style="font-size:medium;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: right;">
+            <b>
+
+              Founded in 1948, Flash Recruitment has a long history of connecting opportunities at great companies with
+              highly skilled job seekers.
+              <br><br>
+              Bolstered by the strength of our brand, our people, our technology and our professional business model, we
+              find meaningful and exciting employment for the people we place and provide clients access to the
+              specialised talent they need to help grow.
+              <br><br>
+              We pioneered the idea of professional talent solutions nearly 70 years ago and, as the needs of businesses
+              have evolved, so have we.</b>
           </p>
         </div>
       </div>
@@ -54,10 +71,11 @@
       <!-- RIGHT BOX -->
       <div class="main-box__item right-box">
         <div class="content-box right-box__content">
-          <img class="right-box__img" src="../imgs/branding/logo.png" alt="Flash Recruitment logo" />
+          <img class="right-box__img right-box__img__about" src="imgs/shots/staff.jpg" alt="Example of a working member of staff" />
         </div>
       </div>
     </main>
+
 
 
     <!-- footer -->
